@@ -1,0 +1,1 @@
+http://stackoverflow.com/questions/18914274/reducing-size-of-icudt51-dll
