@@ -36,7 +36,7 @@ void MainWindow::updateTimerDisplay()
     QString strSec = QString("%1").arg(seconds, 2, 10, QLatin1Char('0')).mid(0, 2);
     if(seconds==0) strSec = "00";
     ui->lineEditTimerDisplay->setText(QString("%1:%2").arg(strMin).arg(strSec));
-    if(m_countRemaining==1490)
+    if(m_countRemaining==0)
     {
         QMessageBox::warning(this, "Time is out", "Your time is out.");
     }
