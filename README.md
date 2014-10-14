@@ -1,6 +1,5 @@
 # About the author
-Feng Zhang
-Ph.D Candidate at School of Computing, Queen's University, Kingston
+Feng Zhang, Ph.D Candidate at School of Computing, Queen's University, Kingston
 
 # License
 LGPL
