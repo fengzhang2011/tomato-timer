@@ -39,8 +39,13 @@ void MainWindow::updateTimerDisplay()
     if(m_countRemaining==0)
     {
         QMessageBox::warning(this, "Time is out", "Your time is out.");
+        m_countRemaining = m_currentTotal;
+        m_timer->stop();
     }
-    m_countRemaining --;
+    else
+    {
+        m_countRemaining --;
+    }
 //    qDebug()<<"count remaining"<<m_countRemaining;
 }
 
