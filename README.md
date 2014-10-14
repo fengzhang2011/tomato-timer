@@ -1,3 +1,7 @@
+# License
+LGPL
+
+# What's this project?
 A cross-platform desktop application of the original tomato-timer on this website: http://tomato-timer.com.
 
 # TODO
