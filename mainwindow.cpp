@@ -5,12 +5,11 @@
 #include <QMessageBox>
 #include <QDebug>
 
-MainWindow::MainWindow(QWidget *parent) :
-    QMainWindow(parent),
+MainWindow::MainWindow(QWidget *parent, Qt::WindowFlags flags) :
+    QMainWindow(parent, flags),
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    setWindowFlags(Qt::WindowStaysOnTopHint);
     m_timer = new QTimer(this);
     m_timer->setInterval(1000);
     m_currentTotal = 25*60; // 25 minutes;
